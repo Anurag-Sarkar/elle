@@ -1,0 +1,112 @@
+*{
+    margin: 0px;
+    border: 0px;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#main{
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+#one{
+    position: relative;
+    background-color:#333333;
+    height: 100%;
+    width :30%;
+}
+#two{
+    position: relative;
+    overflow: hidden;
+    height: 100%;
+    width: 50%;
+}
+#three{
+    width:20%;
+    height:100%;
+}
+#three-up{
+    overflow: hidden;
+    width: 100%;
+    height: 80%;
+}
+#elle{
+    position: absolute;
+    left: 9%;
+    bottom: 60%;
+}
+p.ele{
+    font-size: 7.5em;
+    color: rgb(255, 255, 255);
+}
+p.wendka{
+    color: white;
+    font-size: 2.5em;
+}
+#wendka{
+    position: absolute;
+    bottom: 5%;
+    left: 15%;
+}
+#line{
+    color: white;
+    position: absolute;
+    bottom: 35%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 100px;
+    border-top: rgba(255, 255, 255, 0.404) solid 1px;
+    border-bottom: rgba(255, 255, 255, 0.404) solid 1px;
+}
+p.offer{
+    font-weight: lighter;
+    font-size: 8px;
+    letter-spacing: 5px;
+}
+
+#sty{
+    position: absolute;
+    bottom: 3%;
+    left: 1%;
+}
+p.wen{
+    font-size: 5em;
+    color: white;
+}
+p.cont{
+    font-size: 4em;
+    padding: 0.8em;
+}
+p.cont:hover{
+    color: white;
+}
+#three-down{
+    width: 100%;
+    height: 20%;
+}
+#three-down:hover{
+    background-color: black;
+}
+#ele:hover{
+    -webkit-text-stroke-color: aliceblue;
+}
+#search{
+    border-radius: 1000px;
+    border: rgba(255, 255, 255, 0.445) solid 1px;
+    position: absolute;
+    padding: 100px 70px;
+    top: 25%;
+    left: 40%;
+}
+p.serach{
+    letter-spacing: 5px;
+    font-size: 12px;
+    color: white;
+}
+#search:hover,#line:hover{
+    background-color: #00000017;
+}
